@@ -49,6 +49,7 @@ nav:
   - Home: index.md
   - Design: theory.md 
   - Assembly: assembly.md
+  - Schematic: assets/schematic.pdf
   
 extra_javascript:
   - scripts/arithmatex-config.js

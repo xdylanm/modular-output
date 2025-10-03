@@ -19,7 +19,7 @@ See the [design](theory.md) section for details on the theory and implementation
 
 # References
 
-1. Ray Wilson, "Stereo Mixer" `MFOS <https://musicfromouterspace.com/analogsynth_new/STEREOMIXER2006/STEREOMIXER2006.php>`_
-2. Elliot Williams, "You Can Have My LM386s When You Pry Them From My Cold Dead Hands" `Hackaday <https://hackaday.com/2016/12/07/you-can-have-my-lm386s-when-you-pry-them-from-my-cold-dead-hands/>`_
-3. "Mixer", `Befaco <https://www.befaco.org/mixer-2/>`_ 
+1. Ray Wilson, "Stereo Mixer" [MFOS](https://musicfromouterspace.com/analogsynth_new/STEREOMIXER2006/STEREOMIXER2006.php)
+2. Elliot Williams, "You Can Have My LM386s When You Pry Them From My Cold Dead Hands" [Hackaday](https://hackaday.com/2016/12/07/you-can-have-my-lm386s-when-you-pry-them-from-my-cold-dead-hands/)
+3. "Mixer", [Befaco](https://www.befaco.org/mixer-2/)
 

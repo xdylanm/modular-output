@@ -1,12 +1,6 @@
-Assembly Guide
-==============
+# Assembly Guide
 
-.. image:: _static/images/output_module.png
-    :width: 400
-    :alt: Output module
-
-Backplane
----------
+## Backplane
 
 Starting with the backplane board (with power input header), place and solder the flat-laying components
 
@@ -56,8 +50,7 @@ Finally, place and solder the headers
 
 Optionally add the test point headers.
 
-Frontplane
-----------
+## Frontplane
 
 Start by placing and soldering the sockets for U2 and U3.
 
@@ -97,11 +90,16 @@ With the face plate temporarily installed, position and solder the red and green
 * D2, D5
 * D3, D6
 
-Finishing 
----------
+## Finishing 
 
 Install the ICs. On the backplane, insert U1. On the frontplane, insert U2 and U3.
 
 Add the standoff on the backplane and connect the frontplane and backplane. Finish the build by attaching the face plate using the audio jack bushings.
+
+## BOM
+
+[Download (.csv)](assets/bom.csv)
+
+{%include-markdown "assets/bom.md"%}
 
 

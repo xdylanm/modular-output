@@ -69,7 +69,7 @@ From the THD+N curves for the OPA1688 (figure 9-3 in the datasheet and table 9-1
 
 The output headroom seems to limit the device in the datasheet: with a $\pm 5V$ supply, the $16\Omega$ clips at $P_{in}=32mW$, equivalent to $I_{out,pk}=63\mathrm{mA}$. That current through $R_{total}=60+16=76\Omega$ results in a voltage drop of 4.8V. 
 
-Moving to $\pm 12V$ rails increases the headroom but also increases the power dissipated by the OPA. The OPA1688 comes in two packages: SOIC and WSON with an exposed pad. The $R_{\theta J A}$ for the SOIC is $116 \degree C/W$ and $63 \degree C/W$ for the WSON. The exposed pad on the WSON significantly improves thermal performance, so I selected that package. Dissipated power is the diffence between supplied power and the power delievered to the load. The current from the supply will depend on the sum of current delivered to the load and the quiescent current, such that the power dissipated per channel is
+Moving to $\pm 12V$ rails increases the headroom but also increases the power dissipated by the OPA. The OPA1688 comes in two packages: SOIC and WSON with an exposed pad. The $R_{\theta J A}$ for the SOIC is $116^\circ C/W$ and $63^\circ C/W$ for the WSON. The exposed pad on the WSON significantly improves thermal performance, so I selected that package. Dissipated power is the diffence between supplied power and the power delievered to the load. The current from the supply will depend on the sum of current delivered to the load and the quiescent current, such that the power dissipated per channel is
 
 $$
 P_D = 2V_{CC}\left(\frac{I_{out,pk}}{\pi} + I_q\right) - \frac{I^2_{pk}R_L}{2}
@@ -77,7 +77,7 @@ $$
 
 where the average current delivered per rail for a sinusoid is the average of a half-wave rectified sinuosid: $2I_{pk}/2\pi$.
 
-For 50mW delivered to a $32\Omega$ load, the single-channel output current is 56mA (peak). The quiescent current is given as 1.6mA per channel in the datasheet. In that scenario, $P_D \simeq 0.4\mathrm{W}$ per channel ($0.8\mathrm{W}$ total), corresponding to a junction temperature rise of $52 \degree C$ ($\sim 77-97 \degree C$ accounting for ambient from $25-45 \degree C$).
+For 50mW delivered to a $32\Omega$ load, the single-channel output current is 56mA (peak). The quiescent current is given as 1.6mA per channel in the datasheet. In that scenario, $P_D \simeq 0.4\mathrm{W}$ per channel ($0.8\mathrm{W}$ total), corresponding to a junction temperature rise of $52^\circ C$ ($\sim 77-97^\circ C$ accounting for ambient from $25-45^\circ C$).
 
 ## References
 
